@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PapilonNFCReaderiOS'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This package is a NFC reader of ID cards and Passports.'
 
 
@@ -26,6 +26,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Papilon Savunma', :file => 'LICENSE' }
   s.author           = { 'kerbaypapilon' => 'kaganerbay@papilon.com.tr' }
   s.source           = { :git => 'https://github.com/Papilon-Savunma/PapilonNFCReaderiOS.git', :tag => s.version.to_s }
+  s.swift_version = "5.0"
 
   s.dependency "OpenSSL-Universal", '1.1.180'
 
