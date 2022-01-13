@@ -22,14 +22,16 @@ Pod::Spec.new do |s|
   'This package is a NFC reader of ID cards and Passports. See README file for more information.'
                         DESC
 
-  s.homepage         = 'https://github.com/kerbaypapilon/PapilonNFCReaderiOS'
+  s.homepage         = 'https://github.com/Papilon-Savunma/PapilonNFCReaderiOS'
   s.license          = { :type => 'Papilon Savunma', :file => 'LICENSE' }
   s.author           = { 'kerbaypapilon' => 'kaganerbay@papilon.com.tr' }
-  s.source           = { :git => 'https://github.com/PapilonSavunma/PapilonNFCReaderiOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Papilon-Savunma/PapilonNFCReaderiOS.git', :tag => s.version.to_s }
+
+  s.dependency "OpenSSL-Universal", '1.1.180'
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'PapilonNFCReaderiOS/Classes/**/*'
+  s.source_files = '**/Classes/**/*.{swift}'
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
