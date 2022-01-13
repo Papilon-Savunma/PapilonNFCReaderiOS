@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08A418994F3B0428620527AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		08A418994F3B0428620527AC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* PapilonNFCReaderiOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PapilonNFCReaderiOS_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,11 +40,11 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6F9C3664703F1B5C0F9BD194 /* Pods-PapilonNFCReaderiOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PapilonNFCReaderiOS_Example.debug.xcconfig"; path = "Target Support Files/Pods-PapilonNFCReaderiOS_Example/Pods-PapilonNFCReaderiOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6FFF1644F776ED1EE61AC0A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		6FFF1644F776ED1EE61AC0A2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		73B4B30553A8F5F7C72D9BFD /* Pods_PapilonNFCReaderiOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PapilonNFCReaderiOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		953ACBA549FDBF9EC785E308 /* Pods-PapilonNFCReaderiOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PapilonNFCReaderiOS_Tests.release.xcconfig"; path = "Target Support Files/Pods-PapilonNFCReaderiOS_Tests/Pods-PapilonNFCReaderiOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AC131F148650CB607E7C6917 /* Pods-PapilonNFCReaderiOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PapilonNFCReaderiOS_Tests.debug.xcconfig"; path = "Target Support Files/Pods-PapilonNFCReaderiOS_Tests/Pods-PapilonNFCReaderiOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C8C5E0A1D5C1DD5179026870 /* PapilonNFCReaderiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = PapilonNFCReaderiOS.podspec; path = ../PapilonNFCReaderiOS.podspec; sourceTree = "<group>"; };
+		C8C5E0A1D5C1DD5179026870 /* PapilonNFCReaderiOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = PapilonNFCReaderiOS.podspec; path = ../PapilonNFCReaderiOS.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E18A55EFF9F3A627F21FB04A /* Pods-PapilonNFCReaderiOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PapilonNFCReaderiOS_Example.release.xcconfig"; path = "Target Support Files/Pods-PapilonNFCReaderiOS_Example/Pods-PapilonNFCReaderiOS_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F298950C1E4C859EB8703B68 /* Pods_PapilonNFCReaderiOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PapilonNFCReaderiOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -86,7 +86,6 @@
 				AC131F148650CB607E7C6917 /* Pods-PapilonNFCReaderiOS_Tests.debug.xcconfig */,
 				953ACBA549FDBF9EC785E308 /* Pods-PapilonNFCReaderiOS_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

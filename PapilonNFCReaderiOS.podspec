@@ -22,20 +22,14 @@ TODO: Add long description of the pod here.
                        DESC
 
   s.homepage         = 'https://github.com/kerbaypapilon/PapilonNFCReaderiOS'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'kerbaypapilon' => 'kaanerbay93@gmail.com' }
-  s.source           = { :git => 'https://github.com/kerbaypapilon/PapilonNFCReaderiOS.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.license          = { :type => 'Papilon Savunma', :file => 'LICENSE' }
+  s.author           = { 'kerbaypapilon' => 'kaganerbay@papilon.com.tr' }
+  s.source           = { :git => 'https://github.com/PapilonSavunma/PapilonNFCReaderiOS.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'PapilonNFCReaderiOS/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'PapilonNFCReaderiOS' => ['PapilonNFCReaderiOS/Assets/*.png']
-  # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

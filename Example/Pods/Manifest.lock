@@ -1,0 +1,16 @@
+PODS:
+  - PapilonNFCReaderiOS (0.1.0)
+
+DEPENDENCIES:
+  - PapilonNFCReaderiOS (from `../`)
+
+EXTERNAL SOURCES:
+  PapilonNFCReaderiOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  PapilonNFCReaderiOS: c55f58399e5e4f35dc3cc11eaf643f657ea5c2e4
+
+PODFILE CHECKSUM: 4000541e21220e47120e930d5385b19b7b8988ee
+
+COCOAPODS: 1.11.2
