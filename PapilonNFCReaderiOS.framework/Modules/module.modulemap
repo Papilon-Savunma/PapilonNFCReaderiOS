@@ -1,0 +1,11 @@
+framework module PapilonNFCReaderiOS {
+  umbrella header "PapilonNFCReaderiOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PapilonNFCReaderiOS.Swift {
+    header "PapilonNFCReaderiOS-Swift.h"
+    requires objc
+}
